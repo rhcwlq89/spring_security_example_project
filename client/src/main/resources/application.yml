@@ -42,3 +42,5 @@ spring:
         provider:
          spring:
           issuer-uri: http://localhost:9000
+messages:
+  base-uri: http://127.0.0.1:8090/messages

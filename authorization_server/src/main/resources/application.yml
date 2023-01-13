@@ -15,6 +15,3 @@ spring:
     username: root
     password: 123
     url: jdbc:mysql://localhost:3306/auth?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&connectTimeout=5000&socketTimeout=10000&useSSL=false&useTimezone=true&serverTimezone=UTC&rewriteBatchedStatements=true
-  sql:
-    init:
-      mode: always

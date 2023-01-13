@@ -1,13 +1,13 @@
-package hj.lee.authorization_server;
+package hj.lee.resource.server;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class AuthorizationServerApplication {
+public class ResourceServerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(AuthorizationServerApplication.class, args);
+        SpringApplication.run(ResourceServerApplication.class, args);
     }
 
 }
