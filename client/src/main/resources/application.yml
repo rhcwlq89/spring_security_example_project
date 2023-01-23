@@ -5,8 +5,15 @@ logging:
   level:
     root: INFO
     org.springframework.web: DEBUG
-    org.springframework.security: DEBUG
-    org.springframework.security.oauth2: DEBUG
+    org.springframework.security: INFO
+    org.springframework.security.oauth2: INFO
+    org:
+      springframework:
+        web:
+          reactive:
+            function:
+              client:
+                WebClient: DEBUG
 #    org.springframework.boot.autoconfigure: DEBUG
 
 spring:
